@@ -66,12 +66,24 @@ body {
     transform: translateX(-50%);
 }
 
+.countdown .play:active {
+    background-color: white;
+    border: 1px solid #cccc;
+
+}
+
+.countdown .play:active div {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 10px solid red;
+    margin: auto;  
+}
+
 .countdown .play div {
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     border-left: 10px solid white;
     margin: auto;
-
 }
 
 
